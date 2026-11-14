@@ -1,0 +1,18 @@
+{
+  "source": "documented_synthetic",
+  "seed": 42,
+  "files": {
+    "users": {
+      "rows": 200,
+      "sha256": "604210e9f0b12ae856c5bff873df2bc3856a91892ca128d5eb1a7d0855c43b8a"
+    },
+    "items": {
+      "rows": 120,
+      "sha256": "e4c71cd64ecfc09d69c9584cff4ee2a8eebbbaa640f60742b38ccecdff9878d5"
+    },
+    "interactions": {
+      "rows": 8410,
+      "sha256": "46eb675277a49c7ad569d34d6b71502ce5cabcf1c81ca3aa52ed529f62ef334e"
+    }
+  }
+}

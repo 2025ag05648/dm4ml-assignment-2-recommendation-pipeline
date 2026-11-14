@@ -1,0 +1,14 @@
+artifact_uri: file:///workspace/scratch/d6ac5fc62fb8/recommendation-pipeline/runs/20261114T144128Z_e3a788/mlruns/391491647983094504/fc13a0b3bb47441289c026c01bf712a8/artifacts
+end_time: 1794667289398
+entry_point_name: ''
+experiment_id: '391491647983094504'
+lifecycle_stage: active
+run_id: fc13a0b3bb47441289c026c01bf712a8
+run_name: hybrid
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794667289388
+status: 3
+tags: []
+user_id: agent

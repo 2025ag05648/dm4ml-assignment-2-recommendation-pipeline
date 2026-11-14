@@ -1,0 +1,7 @@
+{
+  "positive_rating": 4,
+  "cf_weight": 0.65,
+  "content_weight": 0.3,
+  "popularity_weight": 0.05,
+  "seed": 42
+}

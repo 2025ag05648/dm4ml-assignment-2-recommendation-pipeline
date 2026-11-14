@@ -1,0 +1,6 @@
+artifact_location: file:///workspace/scratch/d6ac5fc62fb8/recommendation-pipeline/runs/20261114T144128Z_e3a788/mlruns/391491647983094504
+creation_time: 1794667289068
+experiment_id: '391491647983094504'
+last_update_time: 1794667289068
+lifecycle_stage: active
+name: dm4ml-recommendation

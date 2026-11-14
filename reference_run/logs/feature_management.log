@@ -1,0 +1,4 @@
+STAGE feature_management | run 20261114T144128Z_e3a788 | environment ChatGPT execution environment; not BITS Lab
+Feature layer v1 as_of=2025-05-01T00:00:00Z: users=200, items=120, category preferences=1400
+11 documented features; checksums persisted; no test events used
+SUCCESS feature_management

@@ -1,0 +1,5 @@
+STAGE transformation | run 20261114T172151Z_6504ab | environment BITS Lab
+Training-only summaries: 200 users, 120 items
+CSR interaction matrix: (200, 120), nonzero=5543, density=0.231
+Saved activity summary, item popularity, sparse matrix and stable ID mapping
+SUCCESS transformation

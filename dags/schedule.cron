@@ -1,0 +1,3 @@
+# Example only: install in crontab after replacing BOTH absolute paths.
+# Daily 02:00 in the lab host timezone; flock prevents overlapping invocations.
+0 2 * * * cd /ABSOLUTE/PATH/recommendation-pipeline && /usr/bin/flock -n /tmp/dm4ml-pipeline.lock .venv/bin/python -m dags.workflow --environment "BITS Lab" >> scheduler.log 2>&1

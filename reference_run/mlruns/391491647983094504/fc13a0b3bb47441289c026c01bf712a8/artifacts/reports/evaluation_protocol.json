@@ -1,0 +1,16 @@
+{
+  "k": 5,
+  "positive_rating": 4,
+  "eligible_users": 200,
+  "test_users": 200,
+  "cold_users_excluded": 0,
+  "users_without_eligible_positives": 0,
+  "unrecommendable_positive_pairs": 0,
+  "candidate_catalog_size": 120,
+  "ranking": "full training catalog excluding each user training-seen items; deterministic item-ID ties",
+  "aggregation": "macro average over users with at least one eligible positive",
+  "coverage": "distinct recommended items divided by training catalog size",
+  "diversity": "mean fraction of recommendation pairs with different categories",
+  "rmse_mae": "Not applicable: models rank items and do not predict explicit ratings",
+  "weights": "Fixed in advance, no tuning on test"
+}

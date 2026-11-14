@@ -1,0 +1,9 @@
+{
+  "cutoff": "2025-05-01T00:00:00+00:00",
+  "train": 5543,
+  "test": 2857,
+  "repeated_pair_updates_removed": 0,
+  "max_train_timestamp": "2025-04-30T23:52:36+00:00",
+  "min_test_timestamp": "2025-05-01T00:07:56+00:00",
+  "age_imputation": "median of static user metadata; never used by either ranker"
+}

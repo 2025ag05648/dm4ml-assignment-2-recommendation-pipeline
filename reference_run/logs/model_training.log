@@ -1,0 +1,6 @@
+STAGE model_training | run 20261114T144128Z_e3a788 | environment ChatGPT execution environment; not BITS Lab
+Fitted popularity baseline and personalized item-CF/category hybrid on 5543 training rows
+Users=200, candidate items=120, item similarity shape=(120, 120)
+Fixed hybrid weights: CF=0.65, content=0.3, popularity=0.05
+Saved non-pickle NPZ artifact and parameters; MLflow logging occurs after evaluation
+SUCCESS model_training

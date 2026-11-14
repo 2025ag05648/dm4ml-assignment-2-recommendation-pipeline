@@ -1,0 +1,16 @@
+test_duplicate_primary_key_different_metadata (test_pipeline.DataContracts.test_duplicate_primary_key_different_metadata) ... ok
+test_faults_quarantined (test_pipeline.DataContracts.test_faults_quarantined) ... ok
+test_fractional_id_not_truncated (test_pipeline.DataContracts.test_fractional_id_not_truncated) ... ok
+test_hand_computed_metrics (test_pipeline.DataContracts.test_hand_computed_metrics) ... ok
+test_schema_missing_column_fails (test_pipeline.DataContracts.test_schema_missing_column_fails) ... ok
+test_synthetic_deterministic (test_pipeline.DataContracts.test_synthetic_deterministic) ... ok
+test_corrupt_feature_rejected (test_pipeline.ExecutedPipeline.test_corrupt_feature_rejected) ... ok
+test_global_split_and_feature_lineage (test_pipeline.ExecutedPipeline.test_global_split_and_feature_lineage) ... ok
+test_retraining_reproduces_scores (test_pipeline.ExecutedPipeline.test_retraining_reproduces_scores) ... ok
+test_seen_items_excluded_and_unknown_user_fallback (test_pipeline.ExecutedPipeline.test_seen_items_excluded_and_unknown_user_fallback) ... ok
+test_success_and_mlflow (test_pipeline.ExecutedPipeline.test_success_and_mlflow) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.224s
+
+OK

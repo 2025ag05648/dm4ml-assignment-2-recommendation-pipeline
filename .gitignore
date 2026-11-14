@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+runs/
+submission/*.pdf
+submission/*.png
+.pytest_cache/

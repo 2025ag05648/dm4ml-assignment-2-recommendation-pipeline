@@ -1,0 +1,135 @@
+{
+  "run_id": "20261114T144128Z_e3a788",
+  "environment": "ChatGPT execution environment; not BITS Lab",
+  "hostname": "2a2f29cb0a32",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "git_revision": "not_in_git",
+  "started_utc": "2026-11-14T14:41:28.548262+00:00",
+  "status": "SUCCESS",
+  "stages": [
+    {
+      "stage": "ingestion",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T14:41:28.562901+00:00",
+      "seconds": 0.1945
+    },
+    {
+      "stage": "validation",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T14:41:28.757614+00:00",
+      "seconds": 0.0572
+    },
+    {
+      "stage": "preparation",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T14:41:28.815162+00:00",
+      "seconds": 0.0502
+    },
+    {
+      "stage": "transformation",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T14:41:28.865589+00:00",
+      "seconds": 0.028
+    },
+    {
+      "stage": "feature_management",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T14:41:28.894133+00:00",
+      "seconds": 0.0426
+    },
+    {
+      "stage": "model_training",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T14:41:28.936971+00:00",
+      "seconds": 0.0294
+    },
+    {
+      "stage": "model_evaluation",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T14:41:28.966867+00:00",
+      "seconds": 0.0921
+    },
+    {
+      "stage": "orchestration",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T14:41:29.059453+00:00",
+      "seconds": 0.3398
+    }
+  ],
+  "dependencies": {
+    "ingestion": [],
+    "validation": [
+      "ingestion"
+    ],
+    "preparation": [
+      "validation"
+    ],
+    "transformation": [
+      "preparation"
+    ],
+    "feature_management": [
+      "transformation"
+    ],
+    "model_training": [
+      "feature_management"
+    ],
+    "model_evaluation": [
+      "model_training"
+    ]
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "mlflow-skinny": "3.5.1",
+    "reportlab": "4.4.9"
+  },
+  "mlflow_runs": {
+    "popularity": "7ce154550b2744faad226593b71c8348",
+    "hybrid": "fc13a0b3bb47441289c026c01bf712a8"
+  },
+  "finished_utc": "2026-11-14T14:41:29.399723+00:00",
+  "artifact_sha256": {
+    "data/errors/interactions.csv": "5e435863f9cdab73d9f259c66517bfd14be3548673724ba951707b87f6212064",
+    "data/errors/items.csv": "35cbcbff72b4181ce0690bbfc2c84100601558f9ee357a6ccd98375e235961f2",
+    "data/errors/users.csv": "01b35049e15b35254170a97ac723a1e808e9c0564718810c483a1857157bfea4",
+    "data/features/interactions.csv": "0f2560a8a2d6a342a1283576a5279e57cbbbb42ff5ec7a0db95dd19f9e89c65a",
+    "data/features/items.csv": "bb132a97b6f0f74afdbcf76f9626c768b5ac6f941d12cf8108ca1398e431b801",
+    "data/features/metadata.json": "5476f9054970c20c7df9f8fea632b69b8b33d2a880e4cf30e36f542d39f2c339",
+    "data/features/user_categories.csv": "f845207bcf6117a7718eee8508d311e5b98f55fbc487915fbddbfc8d6cc7a39d",
+    "data/features/users.csv": "a1018c351c53cc021e1cacae279cd905e9fab5628cefde007d11e568e11d14d4",
+    "data/processed/items.csv": "9dd23a32228f68377957efd13878fce4c10da73a5ff9a6eb95983464ce1de6b1",
+    "data/processed/test.csv": "4f0d0a4b783d174e49a0a2ea12acba926e25101103684225c46c432310dc3ccc",
+    "data/processed/train.csv": "a6cdef6a6d756540f4eeeade36df8b59895376ba542c73448b9cb46aadf9f208",
+    "data/processed/users.csv": "b2314d61d997d9c26813a353b0c0d3c25e9549331df27c5bf4ef78f7227b6ff0",
+    "data/raw/interactions.csv": "46eb675277a49c7ad569d34d6b71502ce5cabcf1c81ca3aa52ed529f62ef334e",
+    "data/raw/items.csv": "e4c71cd64ecfc09d69c9584cff4ee2a8eebbbaa640f60742b38ccecdff9878d5",
+    "data/raw/users.csv": "604210e9f0b12ae856c5bff873df2bc3856a91892ca128d5eb1a7d0855c43b8a",
+    "data/transformed/item_popularity.csv": "70a0499807875efde4ac219c6fb20e7384936917376ce4aa9d7c182987241f5a",
+    "data/transformed/matrix_index.json": "ff927d837021136243fd1e1c815df9f5f1cb5cb81227e663c7d73613a401bceb",
+    "data/transformed/user_activity.csv": "0f7fc1ed6a1345ecdb9d59cd1f86110aab4e0946d0dd4189453a33507dc31069",
+    "data/transformed/user_item_matrix.npz": "b71e8403d7cb69abe621e2bab9c99d70ccf9f088dd1ecefda1fa4b1c6bc43efa",
+    "data/validated/interactions.csv": "05fb4b65b61777f4746e47431ee9e3a04f749d1f9469d38cea4f46b75e8a6258",
+    "data/validated/items.csv": "e4c71cd64ecfc09d69c9584cff4ee2a8eebbbaa640f60742b38ccecdff9878d5",
+    "data/validated/users.csv": "604210e9f0b12ae856c5bff873df2bc3856a91892ca128d5eb1a7d0855c43b8a",
+    "models/parameters.json": "c6a096229c617795fa4a5c087562cd11181028827ceca9dfe81c82928719e48e",
+    "models/recommenders.npz": "01139f863f72a43eccf0860e114016a7261794901165fc533ba2911022aab14b",
+    "reports/evaluation.csv": "36a62a79e01df862d6c86f2e4868d43ce17c14d79ef84ea76644785e5ffe2022",
+    "reports/evaluation_protocol.json": "823141736ae31a4df3568b31305808b16ff284408fad139836d997f084c5aa16",
+    "reports/feature_catalog.csv": "242e5b5c6f709ec80c23d59f2a26d6bef9eaf60147d92ec0820144c1122d20f7",
+    "reports/feature_catalog.md": "7a467cd1946e68886a9ca62dc22a03b06b37b40ed7e7752821233d22b12ff8d4",
+    "reports/ingestion.json": "0ceec59b5ebc262f80ec8789bd43019e72ebbcc0ac8e8de6b36b2d0d2aeb944c",
+    "reports/recommendations.csv": "3e28925b4a02180766d39b39994a412294a91e4695bded72dcdf71c974c3fafc",
+    "reports/split.json": "6a90ce837718a62c53922c35a3a71f06f2856cd2c8cc745e81a60de35dd6d77a",
+    "reports/validation.json": "1c194cceeca4af52a040f2574f89e339116bf4ea79ef52458d36f216aaaf53af",
+    "logs/feature_management.log": "3ead8e3970dcb5701925d807bf2c720cba5e446538975b6ebd507038156c206d",
+    "logs/ingestion.log": "98f3f7247ab1292b012105610b5e6ff5b239a06e2a58c00b4481f9f3fb799a63",
+    "logs/model_evaluation.log": "c67c91abd900ddf9e52734c0a184efc9fb9e554b3a06c267d1c27159688e0e2f",
+    "logs/model_training.log": "fd6e6bdab8d4156c6d8fb655bf081a2ae5e741388f8d38b1deaf771ff308160c",
+    "logs/orchestration.log": "27d5b38f216cf26eca69173f5d7f1274bc4615d57e053f66f5b94dececbc005b",
+    "logs/preparation.log": "268429753e9c560a7ba69daeeb8dae5cd51dbf9a504ab0361bd3cf8f2a374e0d",
+    "logs/transformation.log": "a1c79c85ed9944302f94c7b70f8b76046504a63fda0ec0a975fa752d1b1326b7",
+    "logs/validation.log": "6db8263047eceffd0b4bc1e34776da7822bce2b5e76c398ac4b6e60dfa37377c"
+  }
+}

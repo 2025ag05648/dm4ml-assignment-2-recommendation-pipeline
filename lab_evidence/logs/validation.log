@@ -1,0 +1,15 @@
+STAGE validation | run 20261114T172151Z_6504ab | environment BITS Lab
+users: input=200, valid=200, quarantined=0
+items: input=120, valid=120, quarantined=0
+interactions: input=8410, valid=8400, quarantined=10
+  duplicate_record: 2
+  invalid_timestamp: 1
+  missing_rating: 1
+  rating_incorrect_type: 1
+  rating_out_of_range: 1
+  timestamp_out_of_window: 1
+  unknown_item: 1
+  unknown_user: 2
+  user_id_invalid_integer: 1
+Invalid rows and source line numbers saved to data/errors; optional missing fields queued for preparation
+SUCCESS validation

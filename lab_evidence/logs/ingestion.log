@@ -1,0 +1,6 @@
+STAGE ingestion | run 20261114T172151Z_6504ab | environment BITS Lab
+Ingested users: 200 rows; SHA256 604210e9f0b12ae8
+Ingested items: 120 rows; SHA256 e4c71cd64ecfc09d
+Ingested interactions: 8410 rows; SHA256 46eb675277a49c7a
+Source: documented_synthetic; files preserved unchanged under data/raw
+SUCCESS ingestion

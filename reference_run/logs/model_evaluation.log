@@ -1,0 +1,7 @@
+STAGE model_evaluation | run 20261114T144128Z_e3a788 | environment ChatGPT execution environment; not BITS Lab
+     model  Precision@5  Recall@5  NDCG@5  Coverage  Diversity
+popularity       0.1070    0.0658  0.1020    0.1250     0.5425
+    hybrid       0.4270    0.2897  0.4345    0.9250     0.0770
+Eligible evaluation users=200; cold users excluded=0; relevance=rating>=4
+Metrics use unseen train-catalog candidates; RMSE/MAE not applicable to rank-only models
+SUCCESS model_evaluation

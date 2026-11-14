@@ -1,0 +1,11 @@
+source_csv_line,user_id,item_id,rating,timestamp,error_reasons
+8402,999999,24,5,2025-04-19T08:08:35+00:00,unknown_user
+8403,1,999999,5,2025-04-19T08:08:35+00:00,unknown_item
+8404,1,24,8,2025-04-19T08:08:35+00:00,rating_out_of_range
+8405,1,24,bad,2025-04-19T08:08:35+00:00,rating_incorrect_type
+8406,wrong-type,24,5,2025-04-19T08:08:35+00:00,user_id_invalid_integer;unknown_user
+8407,1,24,,2025-04-19T08:08:35+00:00,missing_rating
+8408,1,24,5,invalid-date,invalid_timestamp
+8409,1,24,5,2035-01-01T00:00:00Z,timestamp_out_of_window
+8410,1,24,5,2025-04-19T08:08:35+00:00,duplicate_record
+8411,1,97,5,2025-01-30T23:04:11+00:00,duplicate_record

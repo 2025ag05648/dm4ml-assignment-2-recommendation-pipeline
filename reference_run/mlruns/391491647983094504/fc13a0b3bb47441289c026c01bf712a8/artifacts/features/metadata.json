@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "as_of": "2025-05-01T00:00:00Z",
+  "source": "processed/train.csv only plus static item metadata",
+  "sha256": {
+    "interactions.csv": "0f2560a8a2d6a342a1283576a5279e57cbbbb42ff5ec7a0db95dd19f9e89c65a",
+    "items.csv": "bb132a97b6f0f74afdbcf76f9626c768b5ac6f941d12cf8108ca1398e431b801",
+    "user_categories.csv": "f845207bcf6117a7718eee8508d311e5b98f55fbc487915fbddbfc8d6cc7a39d",
+    "users.csv": "a1018c351c53cc021e1cacae279cd905e9fab5628cefde007d11e568e11d14d4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "users": 200,
+  "items": 120,
+  "interactions_per_user": 42,
+  "start": "2025-01-01T00:00:00Z",
+  "cutoff": "2025-05-01T00:00:00Z",
+  "end": "2025-07-01T00:00:00Z",
+  "positive_rating": 4,
+  "k": 5,
+  "cf_weight": 0.65,
+  "content_weight": 0.30,
+  "popularity_weight": 0.05
+}

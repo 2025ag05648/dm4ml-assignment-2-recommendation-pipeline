@@ -1,0 +1,135 @@
+{
+  "run_id": "20261114T172151Z_6504ab",
+  "environment": "BITS Lab",
+  "hostname": "ip-10-3-16-111.ap-south-1.compute.internal",
+  "platform": "Linux-5.14.0-687.33.1.el9_8.x86_64-x86_64-with-glibc2.34",
+  "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+  "git_revision": "not_in_git",
+  "started_utc": "2026-11-14T17:21:51.312479+00:00",
+  "status": "SUCCESS",
+  "stages": [
+    {
+      "stage": "ingestion",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T17:21:51.336903+00:00",
+      "seconds": 0.6923
+    },
+    {
+      "stage": "validation",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T17:21:52.029829+00:00",
+      "seconds": 0.1549
+    },
+    {
+      "stage": "preparation",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T17:21:52.185296+00:00",
+      "seconds": 0.1378
+    },
+    {
+      "stage": "transformation",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T17:21:52.323726+00:00",
+      "seconds": 0.0632
+    },
+    {
+      "stage": "feature_management",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T17:21:52.387917+00:00",
+      "seconds": 0.1039
+    },
+    {
+      "stage": "model_training",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T17:21:52.492512+00:00",
+      "seconds": 0.0841
+    },
+    {
+      "stage": "model_evaluation",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T17:21:52.577279+00:00",
+      "seconds": 0.3241
+    },
+    {
+      "stage": "orchestration",
+      "status": "SUCCESS",
+      "started_utc": "2026-11-14T17:21:52.902138+00:00",
+      "seconds": 0.1784
+    }
+  ],
+  "dependencies": {
+    "ingestion": [],
+    "validation": [
+      "ingestion"
+    ],
+    "preparation": [
+      "validation"
+    ],
+    "transformation": [
+      "preparation"
+    ],
+    "feature_management": [
+      "transformation"
+    ],
+    "model_training": [
+      "feature_management"
+    ],
+    "model_evaluation": [
+      "model_training"
+    ]
+  },
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "mlflow-skinny": "2.22.2",
+    "reportlab": "4.4.9"
+  },
+  "mlflow_runs": {
+    "popularity": "2afbe7e71d974af8ab435ba52f553ca8",
+    "hybrid": "3b5ded6cb9704bdcba57ccc70528ae78"
+  },
+  "finished_utc": "2026-11-14T17:21:53.081411+00:00",
+  "artifact_sha256": {
+    "data/errors/interactions.csv": "5e435863f9cdab73d9f259c66517bfd14be3548673724ba951707b87f6212064",
+    "data/errors/items.csv": "35cbcbff72b4181ce0690bbfc2c84100601558f9ee357a6ccd98375e235961f2",
+    "data/errors/users.csv": "01b35049e15b35254170a97ac723a1e808e9c0564718810c483a1857157bfea4",
+    "data/features/interactions.csv": "0f2560a8a2d6a342a1283576a5279e57cbbbb42ff5ec7a0db95dd19f9e89c65a",
+    "data/features/items.csv": "bb132a97b6f0f74afdbcf76f9626c768b5ac6f941d12cf8108ca1398e431b801",
+    "data/features/metadata.json": "5476f9054970c20c7df9f8fea632b69b8b33d2a880e4cf30e36f542d39f2c339",
+    "data/features/user_categories.csv": "f845207bcf6117a7718eee8508d311e5b98f55fbc487915fbddbfc8d6cc7a39d",
+    "data/features/users.csv": "a1018c351c53cc021e1cacae279cd905e9fab5628cefde007d11e568e11d14d4",
+    "data/processed/items.csv": "9dd23a32228f68377957efd13878fce4c10da73a5ff9a6eb95983464ce1de6b1",
+    "data/processed/test.csv": "4f0d0a4b783d174e49a0a2ea12acba926e25101103684225c46c432310dc3ccc",
+    "data/processed/train.csv": "a6cdef6a6d756540f4eeeade36df8b59895376ba542c73448b9cb46aadf9f208",
+    "data/processed/users.csv": "b2314d61d997d9c26813a353b0c0d3c25e9549331df27c5bf4ef78f7227b6ff0",
+    "data/raw/interactions.csv": "46eb675277a49c7ad569d34d6b71502ce5cabcf1c81ca3aa52ed529f62ef334e",
+    "data/raw/items.csv": "e4c71cd64ecfc09d69c9584cff4ee2a8eebbbaa640f60742b38ccecdff9878d5",
+    "data/raw/users.csv": "604210e9f0b12ae856c5bff873df2bc3856a91892ca128d5eb1a7d0855c43b8a",
+    "data/transformed/item_popularity.csv": "70a0499807875efde4ac219c6fb20e7384936917376ce4aa9d7c182987241f5a",
+    "data/transformed/matrix_index.json": "ff927d837021136243fd1e1c815df9f5f1cb5cb81227e663c7d73613a401bceb",
+    "data/transformed/user_activity.csv": "0f7fc1ed6a1345ecdb9d59cd1f86110aab4e0946d0dd4189453a33507dc31069",
+    "data/transformed/user_item_matrix.npz": "9d2489a98bc28ac1357939c29dbdd3ea373a148771cfe12f866bf4ce6afc3bda",
+    "data/validated/interactions.csv": "05fb4b65b61777f4746e47431ee9e3a04f749d1f9469d38cea4f46b75e8a6258",
+    "data/validated/items.csv": "e4c71cd64ecfc09d69c9584cff4ee2a8eebbbaa640f60742b38ccecdff9878d5",
+    "data/validated/users.csv": "604210e9f0b12ae856c5bff873df2bc3856a91892ca128d5eb1a7d0855c43b8a",
+    "models/parameters.json": "c6a096229c617795fa4a5c087562cd11181028827ceca9dfe81c82928719e48e",
+    "models/recommenders.npz": "8845f794b950dea140ba050a3281b768f69ea2356ff5b201784c234599c5d7c0",
+    "reports/evaluation.csv": "36a62a79e01df862d6c86f2e4868d43ce17c14d79ef84ea76644785e5ffe2022",
+    "reports/evaluation_protocol.json": "823141736ae31a4df3568b31305808b16ff284408fad139836d997f084c5aa16",
+    "reports/feature_catalog.csv": "242e5b5c6f709ec80c23d59f2a26d6bef9eaf60147d92ec0820144c1122d20f7",
+    "reports/feature_catalog.md": "7a467cd1946e68886a9ca62dc22a03b06b37b40ed7e7752821233d22b12ff8d4",
+    "reports/ingestion.json": "0ceec59b5ebc262f80ec8789bd43019e72ebbcc0ac8e8de6b36b2d0d2aeb944c",
+    "reports/recommendations.csv": "3e28925b4a02180766d39b39994a412294a91e4695bded72dcdf71c974c3fafc",
+    "reports/split.json": "6a90ce837718a62c53922c35a3a71f06f2856cd2c8cc745e81a60de35dd6d77a",
+    "reports/validation.json": "1c194cceeca4af52a040f2574f89e339116bf4ea79ef52458d36f216aaaf53af",
+    "logs/feature_management.log": "719dcc141cba929f07298926a50ca22d36fc27358e69093ff8b30fac52811b57",
+    "logs/ingestion.log": "62ece8d21181c494ea3ab207c2db5367fe78ee3adf89d2e874d78be6d0118e3f",
+    "logs/model_evaluation.log": "8723e93b4272f5e98dbcfade5442ca5264a49166a678b1924e6bd1f1b5ee9c00",
+    "logs/model_training.log": "66d1cc373f67d7dccb81cf9b40ade5d69ac4c70b35f144df46b2a157711a4845",
+    "logs/orchestration.log": "fa5ce50279989360d53604419dae6244e5ea79662964dd6cb4500c6e50582989",
+    "logs/preparation.log": "4bf2e3c0c9eeaf701e5aca10ab8a51690962eb55f927c1af54a29dd7e78f3ac5",
+    "logs/transformation.log": "fb60e641d7dd4db2fa28dc6cf5d073eddf1a8056fe34f8afd1f7e455d94b579b",
+    "logs/validation.log": "c0efb7af3db9d48ef5bf4cf1c60ccb5bc12b41f97fe58f62346c57d345c8d1e1"
+  }
+}

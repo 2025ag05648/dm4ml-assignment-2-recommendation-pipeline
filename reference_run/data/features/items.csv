@@ -1,0 +1,121 @@
+item_id,interaction_count,average_rating,title,category,positive_count
+1,47,3.765957446808511,Fictional Movie 001,Unknown,28
+2,31,3.2580645161290325,Fictional Movie 002,Comedy,12
+3,44,3.909090909090909,Fictional Movie 003,Drama,31
+4,37,3.5405405405405403,Fictional Movie 004,Science Fiction,19
+5,41,3.8780487804878048,Fictional Movie 005,Thriller,25
+6,51,3.803921568627451,Fictional Movie 006,Animation,30
+7,40,3.725,Fictional Movie 007,Action,23
+8,44,3.477272727272727,Fictional Movie 008,Comedy,23
+9,44,3.909090909090909,Fictional Movie 009,Drama,28
+10,43,3.651162790697674,Fictional Movie 010,Science Fiction,23
+11,42,3.9047619047619047,Fictional Movie 011,Thriller,29
+12,51,3.882352941176471,Fictional Movie 012,Animation,34
+13,55,3.5636363636363635,Fictional Movie 013,Action,25
+14,41,3.829268292682927,Fictional Movie 014,Comedy,25
+15,52,3.9038461538461537,Fictional Movie 015,Drama,34
+16,37,3.5675675675675675,Fictional Movie 016,Science Fiction,15
+17,60,3.75,Fictional Movie 017,Thriller,34
+18,47,3.787234042553192,Fictional Movie 018,Animation,26
+19,44,3.590909090909091,Fictional Movie 019,Action,23
+20,51,3.333333333333333,Fictional Movie 020,Comedy,23
+21,58,3.913793103448276,Fictional Movie 021,Drama,37
+22,41,3.902439024390244,Fictional Movie 022,Science Fiction,26
+23,47,3.702127659574468,Fictional Movie 023,Thriller,27
+24,45,3.955555555555556,Fictional Movie 024,Animation,28
+25,45,3.555555555555556,Fictional Movie 025,Action,20
+26,38,3.526315789473684,Fictional Movie 026,Comedy,18
+27,58,3.793103448275862,Fictional Movie 027,Drama,35
+28,41,3.731707317073171,Fictional Movie 028,Science Fiction,25
+29,56,3.571428571428572,Fictional Movie 029,Thriller,29
+30,51,3.764705882352941,Fictional Movie 030,Animation,32
+31,44,3.840909090909091,Fictional Movie 031,Action,28
+32,48,3.3125,Fictional Movie 032,Comedy,20
+33,44,3.5,Fictional Movie 033,Drama,22
+34,48,3.4375,Fictional Movie 034,Science Fiction,21
+35,49,3.5306122448979598,Fictional Movie 035,Thriller,25
+36,41,3.658536585365854,Fictional Movie 036,Animation,21
+37,41,3.634146341463415,Fictional Movie 037,Action,20
+38,47,3.723404255319149,Fictional Movie 038,Comedy,26
+39,57,3.929824561403509,Fictional Movie 039,Drama,37
+40,38,3.8157894736842106,Fictional Movie 040,Science Fiction,21
+41,40,3.925,Fictional Movie 041,Thriller,26
+42,47,4.085106382978723,Fictional Movie 042,Animation,34
+43,42,3.952380952380953,Fictional Movie 043,Action,27
+44,41,3.4390243902439024,Fictional Movie 044,Comedy,20
+45,41,3.902439024390244,Fictional Movie 045,Drama,26
+46,44,3.6818181818181817,Fictional Movie 046,Science Fiction,27
+47,50,3.48,Fictional Movie 047,Thriller,24
+48,47,3.74468085106383,Fictional Movie 048,Animation,28
+49,50,3.62,Fictional Movie 049,Action,26
+50,40,3.45,Fictional Movie 050,Comedy,20
+51,44,3.5454545454545454,Fictional Movie 051,Drama,23
+52,48,3.458333333333333,Fictional Movie 052,Science Fiction,24
+53,49,3.5510204081632653,Fictional Movie 053,Thriller,24
+54,56,3.857142857142857,Fictional Movie 054,Animation,35
+55,51,3.7058823529411766,Fictional Movie 055,Action,31
+56,38,3.0526315789473686,Fictional Movie 056,Comedy,13
+57,51,4.078431372549019,Fictional Movie 057,Drama,38
+58,44,3.5681818181818183,Fictional Movie 058,Science Fiction,22
+59,48,3.7708333333333335,Fictional Movie 059,Thriller,28
+60,59,3.6779661016949152,Fictional Movie 060,Animation,32
+61,56,3.732142857142857,Fictional Movie 061,Action,32
+62,46,3.3043478260869565,Fictional Movie 062,Comedy,17
+63,45,3.8666666666666663,Fictional Movie 063,Drama,27
+64,48,3.4166666666666665,Fictional Movie 064,Science Fiction,26
+65,51,3.5294117647058822,Fictional Movie 065,Thriller,26
+66,46,3.891304347826087,Fictional Movie 066,Animation,29
+67,43,3.627906976744186,Fictional Movie 067,Action,22
+68,37,3.8378378378378377,Fictional Movie 068,Comedy,26
+69,44,3.7954545454545454,Fictional Movie 069,Drama,25
+70,45,3.422222222222222,Fictional Movie 070,Science Fiction,20
+71,44,3.613636363636364,Fictional Movie 071,Thriller,25
+72,53,3.962264150943396,Fictional Movie 072,Animation,38
+73,44,3.772727272727273,Fictional Movie 073,Action,25
+74,47,3.6808510638297873,Fictional Movie 074,Comedy,29
+75,51,3.862745098039216,Fictional Movie 075,Drama,34
+76,44,3.613636363636364,Fictional Movie 076,Science Fiction,24
+77,38,3.710526315789474,Fictional Movie 077,Thriller,22
+78,52,3.673076923076923,Fictional Movie 078,Animation,30
+79,44,3.6818181818181817,Fictional Movie 079,Action,23
+80,29,3.4827586206896552,Fictional Movie 080,Comedy,15
+81,48,3.9791666666666665,Fictional Movie 081,Drama,34
+82,37,3.5405405405405403,Fictional Movie 082,Science Fiction,18
+83,47,3.787234042553192,Fictional Movie 083,Thriller,29
+84,52,3.942307692307693,Fictional Movie 084,Animation,33
+85,56,3.803571428571429,Fictional Movie 085,Action,33
+86,50,3.66,Fictional Movie 086,Comedy,29
+87,49,3.795918367346939,Fictional Movie 087,Drama,28
+88,48,3.6041666666666665,Fictional Movie 088,Science Fiction,22
+89,41,3.7560975609756095,Fictional Movie 089,Thriller,23
+90,50,3.96,Fictional Movie 090,Animation,33
+91,45,3.7777777777777777,Fictional Movie 091,Action,27
+92,51,3.6666666666666665,Fictional Movie 092,Comedy,27
+93,48,3.8333333333333335,Fictional Movie 093,Drama,29
+94,57,3.526315789473684,Fictional Movie 094,Science Fiction,30
+95,47,3.574468085106383,Fictional Movie 095,Thriller,25
+96,56,3.7857142857142856,Fictional Movie 096,Animation,34
+97,56,3.446428571428572,Fictional Movie 097,Action,26
+98,43,3.4651162790697674,Fictional Movie 098,Comedy,23
+99,50,3.84,Fictional Movie 099,Drama,31
+100,46,3.347826086956522,Fictional Movie 100,Science Fiction,21
+101,45,3.6,Fictional Movie 101,Thriller,26
+102,63,3.888888888888889,Fictional Movie 102,Animation,40
+103,44,3.772727272727273,Fictional Movie 103,Action,26
+104,38,3.684210526315789,Fictional Movie 104,Comedy,20
+105,40,3.8,Fictional Movie 105,Drama,24
+106,44,3.727272727272727,Fictional Movie 106,Science Fiction,25
+107,42,3.142857142857143,Fictional Movie 107,Thriller,16
+108,51,3.823529411764706,Fictional Movie 108,Animation,33
+109,42,3.571428571428572,Fictional Movie 109,Action,22
+110,45,3.644444444444445,Fictional Movie 110,Comedy,23
+111,48,4.0625,Fictional Movie 111,Drama,33
+112,34,3.764705882352941,Fictional Movie 112,Science Fiction,21
+113,46,3.652173913043478,Fictional Movie 113,Thriller,23
+114,45,3.733333333333333,Fictional Movie 114,Animation,25
+115,45,3.888888888888889,Fictional Movie 115,Action,29
+116,40,3.525,Fictional Movie 116,Comedy,19
+117,39,3.871794871794872,Fictional Movie 117,Drama,25
+118,46,3.391304347826087,Fictional Movie 118,Science Fiction,19
+119,38,3.5,Fictional Movie 119,Thriller,19
+120,55,3.763636363636364,Fictional Movie 120,Animation,35

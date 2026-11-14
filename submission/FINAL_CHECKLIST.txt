@@ -1,0 +1,14 @@
+FINAL SUBMISSION CHECKLIST
+
+1. Execute the pipeline in BITS Lab, not only on a laptop or in ChatGPT.
+2. Run the tests and inspect validation errors, feature catalog and evaluation CSV.
+3. Capture readable execution screenshots of all eight stages in the lab.
+4. Add your name and student ID; review every design decision and metric.
+5. Create/push your GitHub repository; include source, requirements, diagram,
+   validation report, feature catalog, evaluation results, workflow and lab evidence.
+6. Regenerate the 3-page final report with actual GitHub URL and lab provenance;
+   attach the 4-page screenshot appendix using tools/build_report.py.
+7. Verify repository access, URL and screenshot legibility in the PDF.
+8. Submit the final PDF and link according to the course announcement.
+
+The included PDF is a local preview and does not complete items 1, 3 or 5.

@@ -1,0 +1,32 @@
+{
+  "users": {
+    "input": 200,
+    "valid": 200,
+    "quarantined": 0,
+    "reasons": {}
+  },
+  "items": {
+    "input": 120,
+    "valid": 120,
+    "quarantined": 0,
+    "reasons": {}
+  },
+  "interactions": {
+    "input": 8410,
+    "valid": 8400,
+    "quarantined": 10,
+    "reasons": {
+      "duplicate_record": 2,
+      "invalid_timestamp": 1,
+      "missing_rating": 1,
+      "rating_incorrect_type": 1,
+      "rating_out_of_range": 1,
+      "timestamp_out_of_window": 1,
+      "unknown_item": 1,
+      "unknown_user": 2,
+      "user_id_invalid_integer": 1
+    }
+  },
+  "repairable_missing_age": 1,
+  "repairable_missing_category": 1
+}
